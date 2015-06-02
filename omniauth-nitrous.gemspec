@@ -12,11 +12,11 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{An OAuth 2.0 Strategy for Nitrous}
   gem.homepage      = "https://github.com/learn-co/omniauth-nitrous"
 
-  gem.add_runtime_dependency      'omniauth', '~> 1.0'
-  gem.add_runtime_dependency      'omniauth-oauth2', '~> 1.0'
-  gem.add_dependency              'multi_json', '~>  1.5'
-  gem.add_development_dependency  'simplecov', '~> 0.7'
-  gem.add_development_dependency  'rspec', '~> 2.12'
+  gem.add_runtime_dependency      'omniauth'
+  gem.add_runtime_dependency      'omniauth-oauth2'
+  gem.add_dependency              'multi_json'
+
+  gem.add_development_dependency  'rspec'
   gem.add_development_dependency  'rack-test'
   gem.add_development_dependency  'webmock'
   gem.add_development_dependency  'rake'
